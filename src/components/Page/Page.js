@@ -4,7 +4,6 @@ import { Header } from '../Header/Header'
 import { Footer } from '../Footer/Footer'
 
 const StyledPage = styled.div`
-  border: 1px solid red;
   display: flex;
   flex-flow: row wrap;
 
@@ -13,12 +12,13 @@ const StyledPage = styled.div`
     flex-flow: row wrap;
     height: 86vh;
     width: 100%;
+    background-color: var(--backgroundPrimary);
   }
 `
 
 const Page = ({ children }) => {
   return (
-    <StyledPage className='page'>
+    <StyledPage>
       <Header />
       <main>
         { children }

@@ -6,7 +6,7 @@ const StyledHeader = styled.header`
   flex-direction: row;
   width: 100%;
   height: 7vh;
-  border: 1px solid red;
+  background-color: var(--backgroundPrimary);
 
   h1 {
     color: red;
@@ -16,7 +16,6 @@ const StyledHeader = styled.header`
 export const Header = () => {
   return (
     <StyledHeader>
-      <h1>Andre Cantarino</h1>
     </StyledHeader>
   )
 }
