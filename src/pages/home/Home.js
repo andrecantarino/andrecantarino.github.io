@@ -7,14 +7,10 @@ import mediumIcon from '../../assets/icons/medium.svg'
 
 const StyledHome = styled.section`
   display: flex;
-  flex-direction: row;
   width: 100%;
 
   .content {
     display: flex;
-    flex-direction: column;
-    flex: 1;
-    height: 86vh;
     margin: auto 0;
   }
 
@@ -22,8 +18,6 @@ const StyledHome = styled.section`
     display: flex;
     flex-direction: column;
     margin: auto;
-    height: 30vh;
-    width: 60rem;
   }
 
   .role {
@@ -40,10 +34,6 @@ const StyledHome = styled.section`
 
   aside {
     display: flex;
-    flex-direction: column;
-    width: 30%;
-    height: 86vh;
-    min-height: 100%;
     text-align: center;
   }
 
@@ -51,7 +41,6 @@ const StyledHome = styled.section`
     display: flex;
     flex-direction: column;
     margin: auto;
-    height: 60vh;
   }
 
   .avatar {
@@ -93,11 +82,135 @@ const StyledHome = styled.section`
     width: 30px;
     height: 30px;
   }
+
+  @media screen and (max-width: 480px) {
+    display: flex;
+    flex-direction: column;
+
+    .content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .bio {
+      width: 100%;
+    }
+
+    aside {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      padding: 2rem 0 8rem 0;
+    }
+  }
+
+  @media screen and (min-width: 480px) {
+    display: flex;
+    flex-direction: column;
+
+    .content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .bio {
+      width: 100%;
+    }
+
+    aside {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      padding: 2rem 0;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+
+    .content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .bio {
+      width: 100%;
+    }
+
+    aside {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      padding: 2rem 0;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+
+    .content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .bio {
+      width: 100%;
+    }
+
+    aside {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      padding: 2rem 0;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+    flex: 1;
+    height: 86vh;
+
+    .content {
+      width: 70%;
+      height: 86vh;
+    }
+
+    .bio {
+      width: 75%;
+    }
+
+    aside {
+      flex-direction: column;
+      width: 30%;
+    }
+  }
+
+  @media screen and (min-width: 1201px) {
+    .content {
+      width: 70%;
+      height: 86vh;
+    }
+
+    .bio {
+      width: 75%;
+    }
+
+    aside {
+      flex-direction: column;
+      width: 30%;
+    }
+  }
 `
 
 export const Home = () => {
   return (
-    <StyledHome>
+    <StyledHome className='home-page'>
       <div className='content'>
         <div className='bio'>
           <h2 className='role'>Software Engineer</h2>
@@ -105,32 +218,32 @@ export const Home = () => {
         </div>
       </div>
       <aside>
-          <div className='profile'>
-            <img
-              src={profilePhoto}
-              className='avatar'
-              alt='andre cantarino profile'
-            />
-            <h1 className='title'>Andre Cantarino</h1>
-            <h2 className='subtitle'>Software Engineer who loves frontend</h2>
-            <ul>
-              <li>
-                <a href='https://github.com/andrecantarino' alt='github icon'>
-                  <img src={githubIcon} alt='github icon' className='icon-img' />
-                </a>
-              </li>
-              <li>
-                <a href='https://www.linkedin.com/in/andre-cantarino/' alt='linkedin icon'>
-                  <img src={linkedinIcon} alt='linkedin icon' className='icon-img' />
-                </a>
-              </li>
-              <li>
-                <a href='https://andrecantarino.medium.com/' alt='medium icon'>
-                  <img src={mediumIcon} alt='medium icon' className='icon-img' />
-                </a>
-              </li>
-            </ul>
-          </div>
+        <div className='profile'>
+          <img
+            src={profilePhoto}
+            className='avatar'
+            alt='andre cantarino profile'
+          />
+          <h1 className='title'>Andre Cantarino</h1>
+          <h2 className='subtitle'>Software Engineer who loves frontend</h2>
+          <ul>
+            <li>
+              <a href='https://github.com/andrecantarino' alt='github icon'>
+                <img src={githubIcon} alt='github icon' className='icon-img' />
+              </a>
+            </li>
+            <li>
+              <a href='https://www.linkedin.com/in/andre-cantarino/' alt='linkedin icon'>
+                <img src={linkedinIcon} alt='linkedin icon' className='icon-img' />
+              </a>
+            </li>
+            <li>
+              <a href='https://andrecantarino.medium.com/' alt='medium icon'>
+                <img src={mediumIcon} alt='medium icon' className='icon-img' />
+              </a>
+            </li>
+          </ul>
+        </div>
       </aside>
     </StyledHome>
   )

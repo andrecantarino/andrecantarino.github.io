@@ -6,11 +6,6 @@ const StyledHeader = styled.header`
   flex-direction: row;
   width: 100%;
   height: 7vh;
-  background-color: var(--backgroundPrimary);
-
-  h1 {
-    color: red;
-  }
 `
 
 export const Header = () => {
