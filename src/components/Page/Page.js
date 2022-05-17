@@ -9,9 +9,6 @@ const StyledPage = styled.div`
 
   main {
     display: flex;
-    flex-flow: row wrap;
-    width: 100%;
-    background-color: var(--backgroundPrimary);
   }
 
   @media screen and (max-width: 480px) {
@@ -22,23 +19,38 @@ const StyledPage = styled.div`
   }
 
   @media screen and (min-width: 480px) {
-
+    main {
+      display: flex;
+      flex-direction: column;
+    }
   }
 
   @media screen and (min-width: 768px) {
-
+    main {
+      display: flex;
+      flex-direction: column;
+    }
   }
 
   @media screen and (min-width: 1024px) {
-
+    main {
+      display: flex;
+      flex-direction: column;
+    }
   }
 
   @media screen and (min-width: 1200px) {
-
+    main {
+      flex-flow: row wrap;
+      width: 100%;
+    }
   }
 
   @media screen and (min-width: 1201px) {
-
+    main {
+      flex-flow: row wrap;
+      width: 100%;
+    }
   }
 `
 

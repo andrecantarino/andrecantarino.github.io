@@ -7,14 +7,10 @@ import mediumIcon from '../../assets/icons/medium.svg'
 
 const StyledHome = styled.section`
   display: flex;
-  flex-direction: row;
   width: 100%;
 
   .content {
     display: flex;
-    flex-direction: column;
-    flex: 1;
-    height: 86vh;
     margin: auto 0;
   }
 
@@ -22,7 +18,6 @@ const StyledHome = styled.section`
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 60rem;
   }
 
   .role {
@@ -39,8 +34,6 @@ const StyledHome = styled.section`
 
   aside {
     display: flex;
-    flex-direction: column;
-    width: 30%;
     text-align: center;
   }
 
@@ -48,7 +41,6 @@ const StyledHome = styled.section`
     display: flex;
     flex-direction: column;
     margin: auto;
-    height: 60vh;
   }
 
   .avatar {
@@ -109,28 +101,110 @@ const StyledHome = styled.section`
       flex-direction: column;
       width: 100%;
       text-align: center;
-      padding: 4rem 0;
+      padding: 2rem 0 8rem 0;
     }
   }
 
   @media screen and (min-width: 480px) {
+    display: flex;
+    flex-direction: column;
 
+    .content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .bio {
+      width: 100%;
+    }
+
+    aside {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      padding: 2rem 0;
+    }
   }
 
   @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
 
+    .content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .bio {
+      width: 100%;
+    }
+
+    aside {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      padding: 2rem 0;
+    }
   }
 
   @media screen and (min-width: 1024px) {
+    display: flex;
+    flex-direction: column;
 
+    .content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .bio {
+      width: 100%;
+    }
+
+    aside {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      padding: 2rem 0;
+    }
   }
 
   @media screen and (min-width: 1200px) {
+    flex-direction: row;
+    flex: 1;
+    height: 86vh;
 
+    .content {
+      width: 70%;
+      height: 86vh;
+    }
+
+    .bio {
+      width: 75%;
+    }
+
+    aside {
+      flex-direction: column;
+      width: 30%;
+    }
   }
 
   @media screen and (min-width: 1201px) {
+    .content {
+      width: 70%;
+      height: 86vh;
+    }
 
+    .bio {
+      width: 75%;
+    }
+
+    aside {
+      flex-direction: column;
+      width: 30%;
+    }
   }
 `
 
