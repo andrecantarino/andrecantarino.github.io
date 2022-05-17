@@ -115,18 +115,18 @@ export const Home = () => {
             <h2 className='subtitle'>Software Engineer who loves frontend</h2>
             <ul>
               <li>
-                <a href='#' alt='github icon'>
+                <a href='https://github.com/andrecantarino' alt='github icon'>
                   <img src={githubIcon} alt='github icon' className='icon-img' />
                 </a>
               </li>
               <li>
-                <a href='#' alt='linkedin icon'>
-                  <img src={linkedinIcon} alt='github icon' className='icon-img' />
+                <a href='https://www.linkedin.com/in/andre-cantarino/' alt='linkedin icon'>
+                  <img src={linkedinIcon} alt='linkedin icon' className='icon-img' />
                 </a>
               </li>
               <li>
-                <a href='#' alt='medium icon'>
-                  <img src={mediumIcon} alt='github icon' className='icon-img' />
+                <a href='https://andrecantarino.medium.com/' alt='medium icon'>
+                  <img src={mediumIcon} alt='medium icon' className='icon-img' />
                 </a>
               </li>
             </ul>
