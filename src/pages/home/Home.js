@@ -89,6 +89,14 @@ const StyledHome = styled.section`
       width: 100%;
     }
 
+    .role {
+      margin: 0 auto;
+    }
+
+    .text {
+      margin: 2rem 2rem 0 2rem;
+    }
+
     aside {
       display: flex;
       flex-direction: column;
@@ -109,6 +117,14 @@ const StyledHome = styled.section`
 
     .bio {
       width: 100%;
+    }
+
+    .role {
+      margin: 2rem;
+    }
+
+    .text {
+      margin: 2rem 2rem 0 2rem;
     }
 
     aside {
@@ -133,6 +149,14 @@ const StyledHome = styled.section`
       width: 100%;
     }
 
+    .role {
+      margin: 2rem;
+    }
+
+    .text {
+      margin: 2rem 2rem 0 2rem;
+    }
+
     aside {
       display: flex;
       flex-direction: column;
@@ -153,6 +177,14 @@ const StyledHome = styled.section`
 
     .bio {
       width: 100%;
+    }
+
+    .role {
+      margin: 0 auto;
+    }
+
+    .text {
+      margin: 2rem 2rem 0 2rem;
     }
 
     aside {
@@ -178,6 +210,14 @@ const StyledHome = styled.section`
       width: 75%;
     }
 
+    .role {
+      margin: 0;
+    }
+
+    .text {
+      margin: 2rem 0 0 0;
+    }
+
     aside {
       flex-direction: column;
       width: 30%;
@@ -192,6 +232,14 @@ const StyledHome = styled.section`
 
     .bio {
       width: 75%;
+    }
+
+    .role {
+      margin: 0;
+    }
+
+    .text {
+      margin: 2rem 0 0 0;
     }
 
     aside {
