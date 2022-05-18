@@ -23,13 +23,6 @@ const StyledHome = styled.section`
   .role {
     font-size: 2rem;
     color: var(--textPrimary);
-    margin: 5rem 2rem 2rem 2rem;
-  }
-
-  .description {
-    font-size: 1rem;
-    color: var(--textSecondary);
-    margin: 0 2rem;
   }
 
   aside {
@@ -214,7 +207,14 @@ export const Home = () => {
       <div className='content'>
         <div className='bio'>
           <h2 className='role'>Software Engineer</h2>
-          <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac dolor eleifend, tristique justo at, imperdiet nisi. In ex lorem, dignissim at sodales sed, rhoncus in felis. Phasellus turpis elit, auctor eu dapibus eu, gravida sed libero. Cras nec metus sit amet nibh sodales molestie. Fusce efficitur finibus pulvinar. Proin vel tincidunt augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque consectetur vitae erat vel ultrices. Aliquam sed neque venenatis, ultricies leo vel, luctus orci.</p>
+          <p className='text'>
+              I'm a Software Engineer who loves frontend.
+              I've been working with technology since 2010 and my last years were focused on frontend technologies.
+              My passion is to build products that have a positive impact on people's lives, connecting user experience and code quality.
+          </p>
+          <p className='text'>
+            Check my social medias for more information.
+          </p>
         </div>
       </div>
       <aside>

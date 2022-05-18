@@ -11,6 +11,11 @@ const GlobalStyles = createGlobalStyle`
     --desktopBreakpoint: 1200px;
     --largeScreenBreakpoint: 1201px;
   }
+
+  .text {
+    font-size: 1rem;
+    color: var(--textSecondary);
+  }
 `
 
 export default GlobalStyles;
