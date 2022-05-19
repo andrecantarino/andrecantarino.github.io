@@ -8,9 +8,11 @@ const StyledFooter = styled.footer`
   height: 7vh;
 `
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <StyledFooter>
     </StyledFooter>
   )
 }
+
+export default Footer;

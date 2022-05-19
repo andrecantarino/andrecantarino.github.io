@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home | snapshot should take a snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="sc-bczRLJ knJjvh home-page"
+  >
+    <div
+      class="content"
+    >
+      <div
+        class="bio"
+      >
+        <h2
+          class="role"
+        >
+          Software Engineer
+        </h2>
+        <p
+          class="text"
+        >
+          I'm a Software Engineer who loves frontend. I've been working with technology since 2010 and my last years were focused on frontend technologies. My passion is to build products that have a positive impact on people's lives, connecting user experience and code quality.
+        </p>
+        <p
+          class="text"
+        >
+          Check my social medias for more information.
+        </p>
+      </div>
+    </div>
+    <aside>
+      <div
+        class="profile"
+      >
+        <img
+          alt="andre cantarino profile"
+          class="avatar"
+          src="andre-cantarino.png"
+        />
+        <h1
+          class="title"
+        >
+          Andre Cantarino
+        </h1>
+        <h2
+          class="subtitle"
+        >
+          Software Engineer who loves frontend
+        </h2>
+        <ul>
+          <li>
+            <a
+              alt="github icon"
+              href="https://github.com/andrecantarino"
+            >
+              <img
+                alt="github icon"
+                class="icon-img"
+                src="github.svg"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              alt="linkedin icon"
+              href="https://www.linkedin.com/in/andre-cantarino/"
+            >
+              <img
+                alt="linkedin icon"
+                class="icon-img"
+                src="linkedin.svg"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              alt="medium icon"
+              href="https://andrecantarino.medium.com/"
+            >
+              <img
+                alt="medium icon"
+                class="icon-img"
+                src="medium.svg"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+  </section>
+</DocumentFragment>
+`;
