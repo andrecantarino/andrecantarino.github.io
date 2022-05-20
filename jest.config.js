@@ -5,8 +5,7 @@ module.exports = {
       testMatch: ['<rootDir>/src/**/*.(test|spec).js'],
       testEnvironment: 'jsdom',
       setupFilesAfterEnv: [
-        '<rootDir>/src/setupTests.js',
-        '<rootDir>/jest.env.js',
+        '<rootDir>/src/setupTests.js'
       ],
       verbose: true,
     },
