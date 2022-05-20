@@ -1,5 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Page | receive content should receive content as a children 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-dkzDqf ipNBYu"
+  >
+    <header
+      class="sc-bczRLJ fPvdEA"
+    />
+    <main>
+      <div>
+        <p>
+          Hello World
+        </p>
+      </div>
+    </main>
+    <footer
+      class="sc-gsnTZi ZOYfm"
+    />
+  </div>
+</DocumentFragment>
+`;
+
 exports[`Page | snapshot should take a snapshot 1`] = `
 <DocumentFragment>
   <div
