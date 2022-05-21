@@ -249,7 +249,7 @@ const StyledHome = styled.section`
   }
 `
 
-export const Home = () => {
+const Home = () => {
   return (
     <StyledHome className='home-page'>
       <div className='content'>
@@ -296,3 +296,5 @@ export const Home = () => {
     </StyledHome>
   )
 }
+
+export default Home;

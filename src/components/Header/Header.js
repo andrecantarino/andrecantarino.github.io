@@ -8,9 +8,11 @@ const StyledHeader = styled.header`
   height: 7vh;
 `
 
-export const Header = () => {
+const Header = () => {
   return (
     <StyledHeader>
     </StyledHeader>
   )
 }
+
+export default Header;
